@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="iAdView">
+        <attr name="iAdSize">
+            <enum name="BANNER" value="0" />
+            <enum name="FULL_BANNER" value="1" />
+            <enum name="LARGE_BANNER" value= "2" />
+            <enum name="LEADERBOARD" value="3" />
+            <enum name="MEDIUM_RECTANGLE" value="4" />
+            <enum name="SMART_BANNER" value="5"></enum>
+            <enum name="WIDE_SKYSCRAPER" value="6"></enum>
+        </attr>
+        <attr name="iAdUnitId" format="string" />
+    </declare-styleable>
+</resources>
